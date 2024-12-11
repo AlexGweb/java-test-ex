@@ -1,0 +1,22 @@
+library-monolith/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── library/
+│   │   │           ├── LibraryApplication.java
+│   │   │           ├── controller/
+│   │   │           │   ├── BookController.java
+│   │   │           │   └── UserController.java
+│   │   │           ├── model/
+│   │   │           │   ├── Book.java
+│   │   │           │   └── User.java
+│   │   │           ├── repository/
+│   │   │           │   ├── BookRepository.java
+│   │   │           │   └── UserRepository.java
+│   │   │           └── service/
+│   │   │               ├── BookService.java
+│   │   │               └── UserService.java
+│   │   └── resources/
+│   │       └── application.properties
+└── pom.xml 
